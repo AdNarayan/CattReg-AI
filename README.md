@@ -1,20 +1,135 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+````md
+# 🐄 CattReg-AI
 
-# Run and deploy your AI Studio app
+AI-powered cattle breed classification system built using modern web technologies and Gemini AI integration.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/4d870df9-ca87-4a8d-8c4d-9e1736d34cad
+# 🚀 About the Project
 
-## Run Locally
+CattReg-AI is an intelligent cattle breed recognition platform that allows users to upload cattle images and receive AI-based breed predictions with confidence analysis.
 
-**Prerequisites:**  Node.js
+The system is designed for:
+- 🐮 Cattle breed identification
+- 🤖 AI-assisted prediction
+- 📊 Confidence analysis
+- 🌐 Modern responsive interaction
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# ✨ Features
+
+- 📸 Upload cattle images
+- 🧠 AI-powered breed classification
+- 📈 Confidence score display
+- ⚡ Fast responsive UI
+- 🌙 Dark modern interface
+- 🔌 Gemini API integration
+
+---
+
+# 🛠️ Tech Stack
+
+- React
+- TypeScript
+- Vite
+- CSS
+- Gemini API
+- npm
+
+---
+
+# 📂 Project Structure
+
+```bash
+src/
+ ├── assets/
+ ├── services/
+ ├── App.tsx
+ ├── main.tsx
+ └── index.css
+````
+
+---
+
+# ⚙️ Running Locally
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/AdNarayan/CattReg-AI.git
+```
+
+## 2️⃣ Move into the Project Folder
+
+```bash
+cd CattReg-AI
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+## 4️⃣ Create Environment File
+
+Create a file named:
+
+```bash
+.env.local
+```
+
+Add your Gemini API key inside it:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+---
+
+## 5️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+The app will start locally on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+# 🧪 Future Improvements
+
+* Multi-breed recognition
+* Real-time camera scanning
+* Improved confidence analysis
+* Mobile optimization
+* Smart livestock dashboard
+
+---
+
+# 📸 Use Cases
+
+* Smart farming
+* Livestock management
+* Veterinary assistance
+* Agricultural AI research
+
+---
+
+# 🤝 Contributing
+
+Contributions and pull requests are welcome.
+
+---
+
+# 📜 License
+
+This project is open-source under the MIT License.
+
+```
+```
