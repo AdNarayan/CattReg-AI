@@ -1,0 +1,8 @@
+{
+  "name": "CattReg AI",
+  "description": "An AI-powered web application to identify various indigenous cattle breeds from images using Gemini Vision.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}
